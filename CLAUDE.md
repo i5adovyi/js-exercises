@@ -18,6 +18,7 @@
 - Connect learning objectives to practical applications
 - Use diagrams when needed to illustrate complex concepts
 - Provide mental models to organize knowledge of JavaScript concepts
+- Map every learning objective to Bloom's taxonomy ("Remember" → "Create") to scaffold cognitive load.
 
 ## 2. Testing Fundamentals
 
