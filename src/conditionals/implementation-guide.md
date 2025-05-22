@@ -6,7 +6,9 @@ This guide will help you work through the conditionals exercises in a structured
 
 1. **Read the documentation**: Start by reading the `readme.md` file to understand JavaScript conditionals.
 
-2. **Understand the exercises**: Open `conditionals.js` and review the function signatures and JSDoc comments.
+2. **Choose your exercise set**:
+   - `conditionals.js` - Core exercises (2 per level)
+   - `conditionals-expanded.js` - Expanded set with 5 exercises per level
 
 3. **Progressive learning**: The exercises are organized by Bloom's Taxonomy levels (Remember → Create) and SOLO Taxonomy levels (Unistructural → Extended Abstract) to progressively build your understanding.
 
@@ -20,12 +22,18 @@ For each exercise:
 
 3. **Run the tests**: Use the following command to test your implementation:
    ```bash
+   # For core exercises
    npm test -- conditionals/conditionals.test.js
+   
+   # For expanded exercises
+   npm test -- conditionals/conditionals-expanded.test.js
    ```
 
 4. **Fix any issues**: If tests fail, review your implementation and try again.
 
-5. **Check the solution**: Once you've completed an exercise (or if you're stuck), you can look at the corresponding solution in `solutions.js`.
+5. **Check the solution**: Once you've completed an exercise (or if you're stuck), you can look at the corresponding solution:
+   - Core exercises: `solutions.js`
+   - Expanded exercises: `solutions-expanded.js`
 
 ## Example Workflow
 
