@@ -25,6 +25,11 @@
 export function isPositive(num) {
   // TODO: Write a simple if statement that returns true if num is greater than 0
   // and false otherwise
+  if (num > 0) {
+    return true;
+  } else {
+    return false
+  }
 }
 
 /**
