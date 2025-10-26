@@ -1,4 +1,29 @@
 /**
+ * FOR LOOP DOCUMENTATION:
+ * A for loop repeats code a specific number of times.
+ *
+ * Syntax:
+ * for (initialization; condition; increment) {
+ *   // code to repeat
+ * }
+ *
+ * Three parts:
+ * 1. Initialization: Declare and set starting value (let i = 1)
+ * 2. Condition: Check if loop should continue (i <= 5)
+ * 3. Increment: Update counter after each iteration (i++)
+ *
+ * Example:
+ * for (let i = 1; i <= 3; i++) {
+ *   console.log(i);  // prints 1, 2, 3
+ * }
+ *
+ * Common patterns:
+ * - Count up: i++
+ * - Count down: i--
+ * - Skip by 2: i += 2
+ */
+
+/**
  * JavaScript Loops - Exercise 1: Basic For Loop
  *
  * Exercise: Print numbers from 1 to 5
@@ -62,3 +87,19 @@ for (let i = 10; i >= 1; i--) {
 for (let i = 2; i <= 10; i += 2) {
   console.log(i);
 }
+
+/**
+ * JavaScript Loops - Exercise 4: Odd Numbers
+ *
+ * Exercise: Print only odd numbers from 1 to 9
+ * Use a for loop to print only the odd numbers: 1, 3, 5, 7, 9
+ *
+ * Expected output in console:
+ * 1
+ * 3
+ * 5
+ * 7
+ * 9
+ *
+ * TODO: Write a for loop below that prints only odd numbers from 1 to 9
+ */
